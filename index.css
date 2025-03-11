@@ -12,6 +12,7 @@ body, html{
     width: 100%;
     flex-direction: row; /*Adicionado para alinhar os itens em linha */
     align-items: center; /*Adicionado para alinhar os itens verticalmente */
+    justify-content: space-between; /* Alinha os itens ao longo da linha,deixando o ícone no final, sendo uma boa prática para essas ocasiões*/
 }
 
 .cabeçalho h1{
@@ -60,4 +61,22 @@ body, html{
     padding: 3.5%;
     background-color: #102192;
     font-weight: bold 500;
+}
+
+.cabeçalho img{
+    display: inline-flex;
+}
+
+.cabeçalho .img_user{
+    height: auto;
+    width: 65%;
+    padding: 1%;
+    padding-left: 20%;
+    padding-top: 12%;
+}
+
+.cabeçalho .user_area p{
+    justify-content:baseline;
+    padding: 1%;
+    padding-right: 128%;
 }
