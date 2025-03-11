@@ -17,17 +17,47 @@ body, html{
 .cabeçalho h1{
     color: white;
     font-size: 100%;
-    padding: 2%;
+    padding: 1%;
+    margin: 0;
+    margin-top: 7%;
     margin-right: 2%;
+    display: inline-flex; /*Adicionado para alinhar os itens em linha */    
+    /* font-size: larger; */
+    font-size: 170%;
 }
+
+/* .cabeçalho header{
+    display: inline-flex;
+    align-items: center;
+    padding: 1%;
+    padding-left: 1%;
+} */
 
 .cabeçalho p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     font-size: 100%;
-    padding: 2%;
+    padding: 4%;
+    margin-left: auto;
+    border: 1px solid white;
+    border-top: #2D356B;
+    border-bottom: #2D356B;
 }
 
 .cabeçalho header{
-    flex-direction: row; /*Adicionado para alinhar os itens em linha */
+    display: inline-flex;
+}
+
+.cabeçalho header .alinhar_direita{
+    display: inline-flex;
+    margin-left: 32%;
+    margin-top: 3%;
+    gap: 40%;
+}
+
+.cabeçalho p:hover{
+    border: 1px solid white;
+    padding: 3.5%;
+    background-color: #102192;
+    font-weight: bold 500;
 }
